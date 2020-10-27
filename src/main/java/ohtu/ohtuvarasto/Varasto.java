@@ -43,7 +43,7 @@ public class Varasto {
         return tilavuus;
     }
 
-    public double paljonkoMahtuu() {  // huom: ominaisuus voidaan myös laskea
+    public double paljonkoMahtuu() {  
         return tilavuus - saldo; 
     }
 
